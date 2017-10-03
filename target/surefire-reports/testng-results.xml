@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "featureFile">Feature File: com&#x2F;mercury&#x2F;bdd&#x2F;login&#x2F;Login.feature</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "feature">Feature: Login Functionality Feature</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenarioOutline">Scenario Outline: Login Functionality</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario Outline: Login Functionality</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  User is on Home Page Login (passed : 6s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  User Navigate to LogIn Page (passed : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  User enters &quot;&lt;username&gt;&quot; and &quot;&lt;password&gt;&quot; (passed : 6s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Message displayed Login Successfully (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario Outline: Login Functionality</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  User is on Home Page Login (passed : 6s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  User Navigate to LogIn Page (passed : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  User enters &quot;mercury&quot; and &quot;mercury&quot; (passed : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Message displayed Login Successfully (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "featureFile">Feature File: com&#x2F;mercury&#x2F;bdd&#x2F;register&#x2F;Register.feature</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "feature">Feature: Registration Functionality Feature</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenarioOutline">Scenario Outline: Register Functionality</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario Outline: Register Functionality</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  User is on Home Page (passed : 6s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  User Navigate to Register Page (passed : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  User enters Contact Information as &quot;&lt;firstname&gt;&quot; and &quot;&lt;lastname&gt;&quot; and &quot;&lt;phone&gt;&quot; and &quot;&lt;email&gt;&quot; (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  User enters Mailing Information as &quot;&lt;Address&gt;&quot; and &quot;&lt;City&gt;&quot; and &quot;&lt;State&#x2F;Province&gt;&quot; and &quot;&lt;Postal Code&gt;&quot; and &quot;&lt;Country&gt;&quot; (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  User enters User Information as &quot;&lt;User Name&gt;&quot; and &quot;&lt;Password&gt;&quot; and &quot;&lt;Confirm Password&gt;&quot; (passed : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Message displayed Registered Successfully (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario Outline: Register Functionality</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  User is on Home Page (passed : 6s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  User Navigate to Register Page (passed : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  User enters Contact Information as &quot;Shiv&quot; and &quot;Pandey&quot; and &quot;1223456789&quot; and &quot;shivp@gmail.com&quot; (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  User enters Mailing Information as &quot;Jbp&quot; and &quot;Jbp&quot; and &quot;MadhyaPradesh&quot; and &quot;412048&quot; and &quot;2&quot; (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  User enters User Information as &quot;shiv&quot; and &quot;password@123&quot; and &quot;password@123&quot; (passed : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Message displayed Registered Successfully (passed : 0s)</div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Test Runner" duration-ms="48273" started-at="2017-09-28T09:35:33Z" finished-at="2017-09-28T09:36:21Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.run_cukes()[pri:0, instance:com.mercury.bdd.login.RunnerLogin@39fb3ab6]" name="run_cukes" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.run_cukes()[pri:0, instance:com.mercury.bdd.register.RunnerRegister@7ac7a4e4]" name="run_cukes" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Login test" duration-ms="26057" started-at="2017-09-28T09:35:33Z" finished-at="2017-09-28T09:35:59Z">
+      <class name="com.mercury.bdd.login.RunnerLogin">
+        <test-method status="PASS" signature="run_cukes()[pri:0, instance:com.mercury.bdd.login.RunnerLogin@39fb3ab6]" name="run_cukes" duration-ms="26047" started-at="2017-09-28T15:05:33Z" description="Runs Cucumber Features" finished-at="2017-09-28T15:05:59Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div "featureFile">Feature File: com&#x2F;mercury&#x2F;bdd&#x2F;login&#x2F;Login.feature</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "feature">Feature: Login Functionality Feature</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenarioOutline">Scenario Outline: Login Functionality</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario Outline: Login Functionality</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  User is on Home Page Login (passed : 6s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  User Navigate to LogIn Page (passed : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  User enters &quot;&lt;username&gt;&quot; and &quot;&lt;password&gt;&quot; (passed : 6s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Message displayed Login Successfully (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario Outline: Login Functionality</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  User is on Home Page Login (passed : 6s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  User Navigate to LogIn Page (passed : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  User enters &quot;mercury&quot; and &quot;mercury&quot; (passed : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Message displayed Login Successfully (passed : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- run_cukes -->
+      </class> <!-- com.mercury.bdd.login.RunnerLogin -->
+    </test> <!-- Login test -->
+    <test name="register test" duration-ms="22197" started-at="2017-09-28T09:35:59Z" finished-at="2017-09-28T09:36:21Z">
+      <class name="com.mercury.bdd.register.RunnerRegister">
+        <test-method status="PASS" signature="run_cukes()[pri:0, instance:com.mercury.bdd.register.RunnerRegister@7ac7a4e4]" name="run_cukes" duration-ms="22194" started-at="2017-09-28T15:05:59Z" description="Runs Cucumber Features" finished-at="2017-09-28T15:06:21Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div "featureFile">Feature File: com&#x2F;mercury&#x2F;bdd&#x2F;register&#x2F;Register.feature</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "feature">Feature: Registration Functionality Feature</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenarioOutline">Scenario Outline: Register Functionality</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario Outline: Register Functionality</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  User is on Home Page (passed : 6s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  User Navigate to Register Page (passed : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  User enters Contact Information as &quot;&lt;firstname&gt;&quot; and &quot;&lt;lastname&gt;&quot; and &quot;&lt;phone&gt;&quot; and &quot;&lt;email&gt;&quot; (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  User enters Mailing Information as &quot;&lt;Address&gt;&quot; and &quot;&lt;City&gt;&quot; and &quot;&lt;State&#x2F;Province&gt;&quot; and &quot;&lt;Postal Code&gt;&quot; and &quot;&lt;Country&gt;&quot; (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  User enters User Information as &quot;&lt;User Name&gt;&quot; and &quot;&lt;Password&gt;&quot; and &quot;&lt;Confirm Password&gt;&quot; (passed : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Message displayed Registered Successfully (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario Outline: Register Functionality</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  User is on Home Page (passed : 6s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  User Navigate to Register Page (passed : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  User enters Contact Information as &quot;Shiv&quot; and &quot;Pandey&quot; and &quot;1223456789&quot; and &quot;shivp@gmail.com&quot; (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  User enters Mailing Information as &quot;Jbp&quot; and &quot;Jbp&quot; and &quot;MadhyaPradesh&quot; and &quot;412048&quot; and &quot;2&quot; (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  User enters User Information as &quot;shiv&quot; and &quot;password@123&quot; and &quot;password@123&quot; (passed : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Message displayed Registered Successfully (passed : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- run_cukes -->
+      </class> <!-- com.mercury.bdd.register.RunnerRegister -->
+    </test> <!-- register test -->
+  </suite> <!-- Test Runner -->
+</testng-results>
